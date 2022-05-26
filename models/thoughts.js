@@ -23,5 +23,5 @@ const thoughtSchema = new Schema(
     id: false,
   }
 );
-
-module.exports = reactionSchema;
+const thoughtsSchema = Types("thoughts", thoughtSchema);
+module.exports = thoughtsSchema;
