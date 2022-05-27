@@ -1,5 +1,5 @@
 const { User, Thoughts } = require("../models");
-const mongoose = require("mogoose");
+const mongoose = require("mongoose");
 
 module.exports = {
   getThoughts(req, res) {
